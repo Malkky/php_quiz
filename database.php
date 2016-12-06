@@ -2,8 +2,8 @@
 //Create connection credentials
 $db_host = 'localhost';
 $db_name = 'quizzer';
-$db_user = 'root';
-$db_pass = '';
+$db_user = 'homestead';
+$db_pass = 'secret';
 
 //Create mysqli object
 $mysqli = new mysqli($db_host, $db_user, $db_pass, $db_name);
